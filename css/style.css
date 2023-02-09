@@ -1,0 +1,49 @@
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* header */
+header{
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+position: absolute;
+z-index: 1;
+padding-left: 147px;
+padding-top: 52px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 58px;
+    padding-right: 34px;
+    
+}
+li a{
+    font-size: 36px;
+    color: #fff;
+} 
+li a:hover{
+    border: 3px solid floralwhite;
+}
+/* section1 */
+.section1{
+    position: absolute;
+    width: 100%;
+    height: 2414px;
+    background-image: url(../photos/photo1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.section1_text{
+    position: absolute;
+    z-index: 1;
+    font-size: 64px;
+    top: 1716px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: antiquewhite;
+}
